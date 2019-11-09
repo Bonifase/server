@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/Bonifase/server.svg?branch=master)](https://travis-ci.org/Bonifase/server) [![Coverage Status](https://coveralls.io/repos/github/Bonifase/server/badge.svg?branch=master)](https://coveralls.io/github/Bonifase/server?branch=master) [![Test Coverage](https://api.codeclimate.com/v1/badges/5c89e8bb40ab8d7bd628/test_coverage)](https://codeclimate.com/github/Bonifase/server/test_coverage)
+[![Build Status](https://travis-ci.org/Bonifase/server.svg?branch=master)](https://travis-ci.org/Bonifase/server) [![Test Coverage](https://api.codeclimate.com/v1/badges/5c89e8bb40ab8d7bd628/test_coverage)](https://codeclimate.com/github/Bonifase/server/test_coverage) [![Maintainability](https://api.codeclimate.com/v1/badges/5c89e8bb40ab8d7bd628/maintainability)](https://codeclimate.com/github/Bonifase/server/maintainability)
 
 ## Testing Restful Express/Nodejs API with Mocha and Chai
 

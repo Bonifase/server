@@ -2,12 +2,11 @@ const router = require('express').Router();
 const { check, validationResult } = require('express-validator');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
-const auth = require('../middleware/auth');
-const generateToken = require('./generateToken');
+const auth = require('../../middleware/auth');
+const generateToken = require('../helper');
 
 // user model
-const User = require('../models/user.model');
-
+const User = require('../../models/user.model');
 // get user profile
 router.get('/profile', auth, async (req, res) => {
     try {

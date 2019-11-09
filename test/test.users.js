@@ -1,6 +1,4 @@
 process.env.NODE_ENV = 'test';
-
-let User = require('../models/user.model');
 const data = require('./data')();
 const createUser = require('./createUser')
 const mongoose = require('mongoose');
@@ -14,7 +12,6 @@ let expect = chai.expect;
 
 
 chai.use(chaiHttp);
-
 //Our parent block
 describe('Users', () => {
     beforeEach((done) => {

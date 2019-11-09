@@ -2,10 +2,10 @@ const router = require('express').Router();
 const { check, validationResult } = require('express-validator');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
-const generateToken = require('./generateToken');
+const generateToken = require('../helper');
 
 // user model
-const User = require('../models/user.model');
+const User = require('../../models/user.model');
 
 // register route-------->POST REQUEST
 router.post('/register', 

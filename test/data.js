@@ -30,7 +30,31 @@ const testData = () => {
             phone: "9737-2323-131",
             dietary: "Vegan",
             isconfirmed: false
-        }
+        },
+        guest1: {
+            name: "Test guest1",
+            phone: "9737-2323",
+            dietary: "Vegan",
+            isconfirmed: false
+        },
+        guest2: {
+            name: "",
+            phone: "9737-2323-131",
+            dietary: "Vegan",
+            isconfirmed: false
+        },
+        guest3: {
+            name: "Test guest2",
+            phone: "9",
+            dietary: "Vegan",
+            isconfirmed: false
+        },
+        guest4: {
+            name: "Test guest1",
+            phone: "9737-232",
+            dietary: "",
+            isconfirmed: false
+        },
     
     }
 }

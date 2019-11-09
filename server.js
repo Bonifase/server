@@ -1,7 +1,8 @@
 const express = require('express');
-const register = require('./routes/register.route');
-const login = require('./routes/auth.route');
-const users = require('./routes/user.routes');
+const register = require('./routes/user/register.route');
+const login = require('./routes/user/auth.route');
+const users = require('./routes/user/user.routes');
+const guests = require('./routes/guests/guest.routes');
 const connectDB = require('./config/db');
 
 const app = express();
@@ -17,6 +18,7 @@ app.use(express.json({ extended: true }));
 app.use('/', register);
 app.use('/', login);
 app.use('/', users);
+app.use('/', guests);
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT} ...`))
 
